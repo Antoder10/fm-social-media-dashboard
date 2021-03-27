@@ -9,8 +9,8 @@ const isNegativeVariation = variation => {
 
 const replaceNegativeSign = text => text.replace('-', '');
 
-const SocialOverviewCard = ({data}) => {
-  const { name, username, followers, followersVariation, subscribers, subscribersVariation }= data;
+const SocialOverviewCard = ({socialData}) => {
+  const { name, username, followers, followersVariation, subscribers, subscribersVariation }= socialData;
 
   return (
     <div className={`flex flex-col bg-light-grayish-blue hover:bg-very-pale-blue mb-8 py-6 border-t-8 border-${name.toLowerCase()} cursor-pointer rounded-md shadow-md items-center sm:px-16 dark:bg-dark-desaturated-blue dark:text-white dark:hover:bg-desaturated-blue`}>

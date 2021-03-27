@@ -11,8 +11,8 @@ const SocialOverviewList = ({followersOverviewData, additionalData}) => {
     <section className="py-8 mx-8 flex flex-col sm:grid sm:grid-cols-4 sm:gap-8">
       {
         followersOverviewData
-          ? followersOverviewData.map(data => <SocialOverviewCard data={data} key={uuidv4()}/>)
-          : additionalData.map(data => <AdditionalDataCard data={data} key={uuidv4()}/>)
+          ? followersOverviewData.map(socialData => <SocialOverviewCard socialData={socialData} key={uuidv4()}/>)
+          : additionalData.map(additionalData => <AdditionalDataCard additionalData={additionalData} key={uuidv4()}/>)
       }
     </section>
   )
