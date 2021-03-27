@@ -15,7 +15,7 @@ const Toggle = () => {
           className={`w-16 h-8 flex items-center rounded-full p-1 mx-4 ${theme === "dark" ? "bg-dark-desaturated-blue" : "bg-light-grayish-blue"} `}
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
-          <img src={theme === 'dark' ? Moon : Sun} className={`w-6 transform transition duration-500 ease-in-out ${theme === 'light' && "translate-x-8"}`}/>
+          <img src={theme === 'dark' ? Moon : Sun} alt="toggle icon" className={`w-6 transform transition duration-500 ease-in-out ${theme === 'light' && "translate-x-8"}`}/>
 
         </div>
       </div>
