@@ -15,7 +15,7 @@ const AdditionalDataCard = ({data}) => {
     <div className="flex flex-col bg-light-grayish-blue hover:bg-very-pale-blue p-10 rounded-md shadow-md cursor-pointer dark:hover:bg-desaturated-blue dark:bg-dark-desaturated-blue">
       <div className="flex flex-row mb-6 items-center justify-between">
         <span className="font-bold text-dark-grayish-blue">{Object.keys(data)[1]}</span>
-        <img src={`/images/icon-${data.name.toLowerCase()}.svg`} alt='icon' className="ml-auto w-6"/>
+        <img src={`/images/icon-${data.name.toLowerCase()}.svg`} alt={`icon-${name}`} className="ml-auto w-6"/>
       </div>
       <div className="flex flex-row items-center justify-between">
         <span className="font-bold text-4xl text-black dark:text-white">{data[Object.keys(data)[1]]}</span>
