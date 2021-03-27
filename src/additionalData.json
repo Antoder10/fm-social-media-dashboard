@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Facebook",
+    "Page Views": "87",
+    "pageViewsVariation": "3%"
+  },
+  {
+    "name": "Facebook",
+    "Likes": "52",
+    "likesVariation": "-2%"
+  },
+  {
+    "name": "Twitter",
+    "Retweets": "117",
+    "retweetsVariation": "303%"
+  },
+  {
+    "name": "Twitter",
+    "Likes": "507",
+    "likesVariation": "553%"
+  },
+  {
+    "name": "Instagram",
+    "Likes": "5462",
+    "likesVariation": "2257%"
+  },
+  {
+    "name": "Instagram",
+    "Profile Views": "52k",
+    "profileViewsVariation": "1375%"
+  },
+  {
+    "name": "Youtube",
+    "Likes": "107",
+    "likesVariation": "-19%"
+  },
+  {
+    "name": "Youtube",
+    "Total Views": "1407",
+    "totalViewsVariation": "-12%"
+  }
+]
